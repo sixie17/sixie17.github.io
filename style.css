@@ -31,3 +31,67 @@ hr{
 .buffer{
   height: 10rem;
 }
+.listElement{
+  display: inline;
+  color: aliceblue;
+  padding: 10px;
+  font-size: large;
+  font-weight: 500;
+  margin-left:3px;
+
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.listElement:hover{
+  font-size: larger;
+  border: 2px solid rgb(255, 121, 77);
+  border-radius: 20px;
+  text-decoration: none;
+}
+.navline{
+    border-color: chocolate;
+    border-width: 3px;
+    max-width: 50%;
+}
+.description{
+  background-color: rgba(240, 248, 255,0.4);
+  margin: 3em;
+  color: black;
+  padding: 1em;
+  border-radius: 20px;
+  font-weight: 600;
+}
+footer{
+  background-color: #303036;
+  color : #d3d3d3;
+  height: 400px;
+  padding: 70px 0;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::backdrop{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
