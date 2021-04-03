@@ -86,6 +86,12 @@ ul{
   font-weight: 500;
   position: relative;
 }
+@media only screen and (min-width: 990px) {
+  .container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}
 .footer-col h4::before{
   content: '';
   position: absolute;
