@@ -86,7 +86,7 @@ ul{
   font-weight: 500;
   position: relative;
 }
-.footer-col h4::backdrop{
+.footer-col h4::before{
   content: '';
   position: absolute;
   left: 0;
